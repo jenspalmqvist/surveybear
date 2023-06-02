@@ -1,0 +1,25 @@
+@baseUrl=http://localhost:3333
+
+POST {{baseUrl}}/survey
+Content-Type: application/json
+
+{
+    "recipient": {
+        "name": "Jonatan",
+        "mobileNumber": "070 123 12 12"
+    }
+}
+
+###
+
+GET {{baseUrl}}/survey/635ad5b2cf3d50daaa87c966
+
+###
+
+PATCH {{baseUrl}}/survey/635ad5b2cf3d50daaa87c966
+Content-Type: application/json
+
+{
+    "rating": 3,
+    "comment": "Det var toppen!"
+}
