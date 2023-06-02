@@ -2,7 +2,7 @@
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "npmScope": "surveybear",
   "affected": {
-    "defaultBase": "main"
+    "defaultBase": "master"
   },
   "tasksRunnerOptions": {
     "default": {
@@ -14,7 +14,7 @@
           "test",
           "e2e"
         ],
-        "accessToken": "MjY2MzRhMTMtYmE3Ni00M2Q0LTkyMzctYjU4ZDg1OTk1NjcxfHJlYWQtd3JpdGU="
+        "accessToken": "ZjFkYzRjZDktNGJmOC00N2ZjLTlhOWQtOGQ4YTIwZTI1YjNlfHJlYWQtd3JpdGU="
       }
     }
   },
