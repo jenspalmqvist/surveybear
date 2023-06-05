@@ -1,7 +1,6 @@
 import { Router } from 'express';
 import { addSurvey, addResponseToSurvey, getSurveyById } from '@surveybear/surveybear-lib';
 import { body, param, validationResult } from 'express-validator';
-import { nextTick } from 'process';
 
 const router = Router();
 
