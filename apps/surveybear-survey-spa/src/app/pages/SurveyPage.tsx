@@ -18,6 +18,8 @@ const SurveyPage = () => {
     return (<>
         <h1>Survey</h1>
         <p>{survey?.recipient.name}</p>
+        <p>{survey?.recipient.mobileNumber}</p>
+
     </>)
 }
 
