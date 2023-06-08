@@ -8,6 +8,8 @@ import * as path from 'path';
 import { connect, handleGlobalErrors } from '@surveybear/surveybear-lib';
 import surveyRouter from './app/routes/surveyRouter';
 
+// ändring
+
 const app = express();
 
 
