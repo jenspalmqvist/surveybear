@@ -8,7 +8,7 @@ import * as path from 'path';
 import { connect, handleGlobalErrors } from '@surveybear/surveybear-lib';
 import surveyRouter from './app/routes/surveyRouter';
 
-// ändring
+// ändring 2
 
 const app = express();
 
