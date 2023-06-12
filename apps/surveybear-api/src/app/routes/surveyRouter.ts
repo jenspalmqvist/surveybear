@@ -63,7 +63,6 @@ router.patch('/survey/:surveyId',
         }
     });
 
-    router.get('/api/todos', (req, res) => res.status(200).send());
 
 router.get('/api/todos', (req, res) => res.status(200).send());
 
