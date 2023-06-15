@@ -1,7 +1,7 @@
 import { ISurvey } from '@surveybear/surveybear-lib';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { getSurveyById } from '../../api/getSurveyById';
+import getSurveyById from '../../api/getSurveyById';
 
 const SurveyPage = () => {
     const { surveyId } = useParams();
