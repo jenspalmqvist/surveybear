@@ -1,7 +1,8 @@
 {
     "/api": {
-        "target": "http://localhost:3333",
+        "target": "http://api.jenscooldomain.online",
         "secure": false,
+        "changeOrigin": true,
         "pathRewrite": {
             "^/api": ""
         }
