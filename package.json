@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "start": "nx serve",
-    "build": "nx build",
+    "build:api": "nx build surveybear-api",
     "test": "nx test"
   },
   "private": true,
@@ -48,7 +48,7 @@
     "babel-jest": "28.1.1",
     "babel-plugin-styled-components": "1.10.7",
     "cypress": "^10.7.0",
-    "eslint": "~8.15.0",
+    "eslint": "^8.15.0",
     "eslint-config-prettier": "8.1.0",
     "eslint-plugin-cypress": "^2.10.3",
     "eslint-plugin-import": "2.26.0",
