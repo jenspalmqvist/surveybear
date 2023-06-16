@@ -14,7 +14,7 @@
         "compiler": "babel",
         "outputPath": "dist/apps/surveybear-survey-spa",
         "index": "apps/surveybear-survey-spa/src/index.html",
-        "baseHref": "/",
+        "baseHref": "/spa/",
         "main": "apps/surveybear-survey-spa/src/main.tsx",
         "polyfills": "apps/surveybear-survey-spa/src/polyfills.ts",
         "tsConfig": "apps/surveybear-survey-spa/tsconfig.app.json",
