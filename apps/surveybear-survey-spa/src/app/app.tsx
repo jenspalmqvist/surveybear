@@ -17,14 +17,17 @@ export function App() {
 
   return (
     <StyledApp>
+      <button onClick={() => {throw Error("Method does not exist")}}>Break the world</button>
       <Routes>
         <Route
           path="/survey/:surveyId"
           element={<SurveyPage />}
         />
-        <Route
+        {process.env['NX_STARTPAGE_ENABLED'] === 'true' &&
+          <Route
           path="/"
           element={<StartPage/>} />
+        }
       </Routes>
     </StyledApp>
   );
