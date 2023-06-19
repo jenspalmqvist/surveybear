@@ -64,6 +64,6 @@ router.patch('/survey/:surveyId',
     });
 
 
-router.get('/api/todos', (req, res) => res.status( process.env.FAIL === 'true' ? 400: 200).send());
+router.get('/api/todos', (req, res) => res.status(200).send());
 
 export default router;
